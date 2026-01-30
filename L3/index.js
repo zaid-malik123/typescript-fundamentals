@@ -13,12 +13,22 @@
 // const ans = fun("zaid", "malik")
 // console.log(ans)
 // Literal Types :- iska matlab hai apna khud ka type bna dena
-function login(role) {
-    if (role === "admin") {
-        console.log("Hi admin");
-    }
-    else if (role === "user") {
-        console.log("Hi user");
-    }
-}
-login("admin");
+// function login(role: "admin" | "user") {
+//     if(role === "admin") {
+//         console.log("Hi admin")
+//     }
+//     else if(role === "user") {
+//         console.log("Hi user")
+//     }
+// }
+// login("admin")
+// Type Alias = ek baar type define karo, phir jahan chaaho reuse karo
+// type User = {
+//     name: string,
+//     age: number
+// }
+// const user: User = {
+//     name: "zaid",
+//     age: 20
+// }
+// console.log(user)
